@@ -14,4 +14,3 @@ public class SpringSecurityJwtApplication {
 
 }
 
-    git remote add origin https://github.com/preethaml7/spring-secutiry-jwt.git
