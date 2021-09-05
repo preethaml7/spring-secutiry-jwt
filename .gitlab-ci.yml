@@ -1,0 +1,11 @@
+image: arm32v7/gradle:latest
+
+stages:
+  - build
+
+build:
+  stage: build
+  script: gradle build
+  artifacts:
+    paths:
+      - target/*.jar
